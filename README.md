@@ -1,6 +1,6 @@
 # Cemilee
 
-Cemilee is a asynchronous http micro service based on [Kemal](http://github.com/sdogruyol/kemal).
+Cemilee is an asynchronous http micro service based on [Kemal](http://github.com/sdogruyol/kemal).
 
 ## Installation
 ```
