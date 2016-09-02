@@ -18,7 +18,7 @@ module Cemilee
   end
 
   post "/" do |env|
-    env.response.content_type = "application/text"
+    env.response.content_type = "text/plain"
     channel = Channel(Tuple(Int32, String)).new
     requests = env.params.json["_json"].as(Array)
     request_size = requests.size
